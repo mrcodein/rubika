@@ -7,12 +7,14 @@ import base64
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 
-
+# شناسه اکانتتون
 bot = Bot("app_name",auth="AUTH",displayWelcome=False)
-target = "u0DaHT50b5aaf4293730ae01dc6d3a2d"
 
-path = "C:\\Users\\SHAYAN\\Documents\\peakpx(2).jpg"
+# چتی که میخواید فایل در اون آپلود بشه
+target = "guid"
 
+# مسیر فایل مورد نظر رو وارد کنید
+path = ""
 key = bytearray("a"*32, "UTF-8")
 iv = bytearray.fromhex('00000000000000000000000000000000')
 
@@ -215,7 +217,7 @@ def sendmusic(chat_id, file):
         data = {"api_version":"4","auth":bot.auth,"client":clients.android,"data_enc":bot.enc.encrypt(dumps(inData)),"method":"sendMessage"}
         return loads(bot.enc.decrypt(post(json=data,url=Bot._getURL()).json()["data_enc"]))
 
-respons = sendmovie(target,path,caption="6 نکته خیلی مهم یادگیری برنامه نویسی 😉❤")
+respons = sendDocument(target,path,caption="ok")
 
     
 
