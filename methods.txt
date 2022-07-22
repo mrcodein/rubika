@@ -1,0 +1,15 @@
+- sendmovie :
+sendmovie(target,path,caption="")
+
+- sendDocument :
+sendDocument(target,path, caption="", message_id="")
+
+- sendmusic :
+sendmusic(target,path,caption="")
+.
+.
+.
+.
+.
+.
+[ github.com/mrcodein ]
