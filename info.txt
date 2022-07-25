@@ -7,10 +7,11 @@ zemnan in bug mahdodiat hajm nadare va ta har hajmj bekhaid up mikone update ham
 
 be zabon sade bekham begam in ravesh har file ro be dah part be hajm raygan dar trafic internet rubika tabdil mikone 
 
-soali dasthid az az rubikaye man beporsid
-@ermia_dev
+soali dasthid az rubikaye man beporsid
+@TheCapt
 
 va afradi ke toye tosee komak kardan
+- Alireza Azhdarlooi
 - Shayan Ghosi
 - Arash Salvand
 - Amir Ershadi
